@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@350&family=Josefin+Slab&display=swap');
+
+*{ /*the spacing */
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+#logo, #menu{ /*spacing for the top of the tabs and text logo*/
+    line-height: 75px;
+}
+
+#menu{ /*styling for the header tabs in the header */
+    font-family: 'Josefin Slab', serif;
+    letter-spacing: 2px;
+    font-size: 120%;
+    list-style-type: none;
+}
+
+#menu h2{ /*styling for the tabs in the header */
+    float:right;
+    margin-right: 15px;
+    color: #bd5e00;
+}
+
+#menu a{ /*removed the underline and blue color from the hyperlink for the anchors in the header */
+    text-decoration: none;
+}
+
+#menu h2:hover{ /*animation for the text in the header */
+    border-bottom: 3px solid #5db86b;
+}
+
+#logo{ /*styling for the logo text in the header */
+    font-family: 'Josefin Sans', sans-serif;
+    color: #00A300;
+    float: left;
+    font-size: 280%;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+nav { /*styling for the nav bar */
+    background-color: aqua;
+    height: 75px;
+    width: 100%;  
+
+}
+
+body{/*styling for the body */
+    color: #964B00;
+}
