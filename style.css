@@ -20,7 +20,7 @@
 #menu h2 { /*style for the tabs in the header */
     float:right;
     margin-right: 50px;
-    color: #bd5e00;
+    color: #fff5dd
 }
 
 #menu a { /*removed the underline and blue color from the hyperlink for the anchors in the header */
@@ -33,7 +33,7 @@
 
 #logo { /*style for the logo text in the header */
     font-family: 'Josefin Sans', sans-serif;
-    color: #8b4600;
+    color: #fff5dd;
     float: left;
     font-size: 280%;
     letter-spacing: 2px;
@@ -41,15 +41,15 @@
 }
 
 nav { /*style for the nav bar */
-    background-color: rgb(0, 216, 216);
+    background-color: #693500;
     height: 75px;
     width: 100%;  
 
 }
 
 body { /*style for the body */
-    color: #964b00;
-    background-color: rgb(103, 168, 206);
+    color: #FAF5E9;
+    background-color: #373e02;
 }
 
 #mimage { /*style for the main image*/
@@ -59,10 +59,10 @@ body { /*style for the body */
     position: relative;
 }
 
-#itext h1 {/* stle for the title on the main image(mimage)*/
+#itext h1 {/* style for the title on the main image(mimage)*/
     font-family: 'Josefin Slab', serif;
     font-size: 150%;
-    color: #ffffff;
+    color: #FAF5E9;
     letter-spacing: 5px;
 
     height: 50px;
@@ -78,10 +78,10 @@ body { /*style for the body */
     right: 950px;
 }
 
-#mintro h2 {/* stle for the text on the main image(mimage)*/
+#mintro h2 {/* style for the text on the main image(mimage)*/
     font-family: 'Josefin Slab', serif;
     font-size: 150%;
-    color: #ffffff;
+    color: #FAF5E9;
     letter-spacing: 3px;
 
     height: 30px;
