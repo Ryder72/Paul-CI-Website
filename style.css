@@ -6,37 +6,37 @@
     border:0px;
 }
 
-#logo, #menu { /*spacing for the top of the tabs and text logo*/
+.test { /*spacing for the top of the tabs and text logo*/
     line-height: 75px;
+}
+
+#logo{
+    padding-top: 15px;
+    text-align: center;
 }
 
 #menu { /*style for the header tabs in the header */
     font-family: 'Josefin Slab', serif;
     letter-spacing: 2px;
-    font-size: 120%;
     list-style-type: none;
+    font-size: inherit;    
 }
 
-#menu h2 { /*style for the tabs in the header */
+#menu p { /*style for the tabs in the header */
     float:right;
     margin-right: 3%;
-    font-size: 140%;
-    color: #fff5dd
+    color: #fff5dd;
 }
 
-#menu a { /*removed the underline and blue color from the hyperlink for the anchors in the header */
-    text-decoration: none;
-}
-
-#menu h2:hover { /*animation for the text in the header */
+.test p:hover { /*animation for the text in the header */
     border-bottom: 3px solid #5db86b;
 }
+
 
 #logo { /*style for the logo text in the header */
     font-family: 'Josefin Sans', sans-serif;
     color: #fff5dd;
     float: left;
-    font-size: 180%;
     letter-spacing: 2px;
     margin-left: 10px;
 }
@@ -44,8 +44,11 @@
 nav { /*style for the nav bar */
     background-color: #7e3f00;
     height: 75px;
-    width: 100%;  
+    width: 100%;
+}
 
+header{
+    font-size: 150%;
 }
 
 body { /*style for the body */
@@ -53,12 +56,15 @@ body { /*style for the body */
     background-color: #373e02;
 }
 
-#mimage { /*style for the main image*/
-    height: 580px;
-    width: 100%;
-    background: url(images/mimage.jpg) no-repeat center;
-    position: relative;
+img{
+    height: 50%;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
+
 
 #itext h2 {/* style for the title on the main image(mimage)*/
     font-family: 'Josefin Slab', serif;
@@ -101,4 +107,14 @@ body { /*style for the body */
 .link{
     text-decoration: none;
     color: #fff5dd
+}
+
+
+
+
+@media only screen and (max-width:700px){
+    header{
+        font-size: 80%;
+    }
+    
 }
