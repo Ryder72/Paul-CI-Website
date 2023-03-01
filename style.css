@@ -74,7 +74,7 @@ img{
     position: relative;
   }
 
-#itext {/* style for the title on the main image(mimage)*/
+#text1 {/* style for the title on the main image(mimage)*/
     font-size: 150%;
     letter-spacing: 4px;
 
@@ -82,18 +82,18 @@ img{
     width: 25%;
     text-align: center;
 
-    padding: 20px 20px 20px 20px;
+    padding: 1%;
 
     background-color: #b95c0093;
     
-    top: 10%;
+    top: 25%;
     left: 15%;
 
     position: absolute;
     display: flex;
 }
 
-#mintro {/* style for the text on the main image(mimage)*/
+#text2 {/* style for the text on the main image(mimage)*/
     font-size: 150%;
     letter-spacing: 2px;
 
@@ -102,23 +102,41 @@ img{
     text-align: center;
     
 
-    padding: 20px 20px 20px 20px;
+    padding: 1%;
 
     background-color: #b95c0093;
 
     top: 75%;
-    left: 35%;
+    left: 25%;
 
     position: absolute;
     display: flex;
-}
 
-.link{
+
     text-decoration: none;
-    color: #fff5dd
+    color: #fff5dd;
+    text-align: center;
+    font-size: 150%;
 }
 
+#infosection{
+    text-align: center;
+}
 
+.bugblock  {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    display: inline-block;
+    width: 350px;
+    height: 400px;
+    background-color: #7e3f00;
+
+    font-size: 150%;
+}
 
 
 @media only screen and (max-width:700px){
@@ -126,11 +144,11 @@ img{
         font-size: 80%;
     }
     
-    #itext {
+    #text1 {
         font-size: 80%;
     }
 
-    #mintro{
+    #text2{
         font-size: 80%;
         }
 }
