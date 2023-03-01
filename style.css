@@ -78,11 +78,12 @@ img{ /* style for the image */
   }
 
 #text1{/* style for the title on the image*/
+    color: black;
     font-size: 150%;
     letter-spacing: 4px;
     width: 25%;
     text-align: center;
-
+    
     padding: 1%;
     background-color: #b95c0093;
     
@@ -94,22 +95,22 @@ img{ /* style for the image */
 }
 
 #text2{/* style for the text on the image*/
+    color: black;
     font-size: 150%;
     letter-spacing: 2px;
     text-align: center;
-    
+
     padding: 1%;
     background-color: #b95c0093;
 
     top: 80%;
-    left: 25%;
+    left: 20%;
 
     position: absolute;
     display: flex;
 
 
     text-decoration: none;
-    color: #fff5dd;
     text-align: center;
     font-size: 150%;
 }
@@ -119,8 +120,9 @@ img{ /* style for the image */
     box-sizing: border-box;
     margin: 20px 5px 20px 5px;
     background-color: #7e3f00;
-    width: 25%;
+    width: 20%;
     height: auto;
+    text-align:right;
 }
 
 .bugblock p{
@@ -128,11 +130,16 @@ img{ /* style for the image */
 }
 
 .bugblock{
+    text-align: center;
     font-size: 150%;
     padding: 20px 0 20px 0;
     margin: 10px auto auto auto;
     display: flex;
+}
+
+#test{
     text-align: center;
+    font-size: 150%;
 }
 
 @media only screen and (max-width:700px){
