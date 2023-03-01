@@ -1,38 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@350&family=Josefin+Slab&display=swap');
 
-* { /*the spacing */
+* { /* the spacing */
     margin:0px;
     padding:0px;
     border:0px;
 }
 
-.menui { /*spacing for the top of the tabs and text logo*/
+.menui { /* spacing for the top of the tabs and text logo*/
     line-height: 75px;
 }
 
-#logo{
+#logo{ /* logo styles */
     padding-top: 15px;
     text-align: center;
 }
 
-#menu { /*style for the header tabs in the header */
+#menu { /* style for the header tabs in the header */
     font-family: 'Josefin Slab', serif;
     letter-spacing: 2px;
     list-style-type: none;
 }
 
-#menu p { /*style for the tabs in the header */
+#menu p { /* style for the tabs in the header */
     float:right;
     margin-right: 3%;
     color: #fff5dd;
 }
 
-.menui p:hover { /*animation for the text in the header */
+.menui p:hover { /* animation for the text in the header */
     border-bottom: 3px solid #5db86b;
 }
 
 
-#logo { /*style for the logo text in the header */
+#logo { /* style for the logo text in the header */
     font-family: 'Josefin Sans', sans-serif;
     color: #fff5dd;
     float: left;
@@ -40,73 +40,68 @@
     margin-left: 10px;
 }
 
-nav { /*style for the nav bar */
+nav { /* style for the nav bar */
     background-color: #7e3f00;
     height: 75px;
     width: 100%;
+    position: fixed;
+    z-index: 99;
 }
 
-header{
+header{ /* style for header */
     font-size: 150%;
 }
 
-body { /*style for the body */
+body { /* style for the body */
     color: #fff5dd;
     background-color: #373e02;
     font-family: 'Josefin Slab', serif;
 
 }
 
-img{
+img{ /* style for the image */
     height: auto;
     width: 75%;
 
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+
+    padding-top: 80px;
 
     display: flex;
     position: relative;
 }
 
-.container {
+.container{ /* style for text over the image */
     position: relative;
   }
 
-#text1 {/* style for the title on the main image(mimage)*/
+#text1{/* style for the title on the image*/
     font-size: 150%;
     letter-spacing: 4px;
-
-    height: auto;
     width: 25%;
     text-align: center;
 
     padding: 1%;
-
     background-color: #b95c0093;
     
-    top: 25%;
+    top: 35%;
     left: 15%;
 
     position: absolute;
     display: flex;
 }
 
-#text2 {/* style for the text on the main image(mimage)*/
+#text2{/* style for the text on the image*/
     font-size: 150%;
     letter-spacing: 2px;
-
-    height: auto;
-    width: 30%;
     text-align: center;
     
-
     padding: 1%;
-
     background-color: #b95c0093;
 
-    top: 75%;
+    top: 80%;
     left: 25%;
 
     position: absolute;
@@ -119,25 +114,26 @@ img{
     font-size: 150%;
 }
 
-#infosection{
-    text-align: center;
-}
-
-.bugblock  {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.block {
+.block{
     display: inline-block;
-    width: 350px;
-    height: 400px;
+    box-sizing: border-box;
+    margin: 20px 5px 20px 5px;
     background-color: #7e3f00;
-
-    font-size: 150%;
+    width: 25%;
+    height: auto;
 }
 
+.bugblock p{
+    text-align: center;
+}
+
+.bugblock{
+    font-size: 150%;
+    padding: 20px 0 20px 0;
+    margin: 10px auto auto auto;
+    display: flex;
+    text-align: center;
+}
 
 @media only screen and (max-width:700px){
     header{
@@ -150,5 +146,13 @@ img{
 
     #text2{
         font-size: 80%;
-        }
+    }
+
+    .block{
+        font-size: 80%;
+    }
+
+    #buginfo{
+        font-size: 80%;
+    }
 }
