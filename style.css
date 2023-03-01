@@ -19,7 +19,6 @@
     font-family: 'Josefin Slab', serif;
     letter-spacing: 2px;
     list-style-type: none;
-    font-size: inherit;    
 }
 
 #menu p { /*style for the tabs in the header */
@@ -54,55 +53,64 @@ header{
 body { /*style for the body */
     color: #fff5dd;
     background-color: #373e02;
+    font-family: 'Josefin Slab', serif;
+
 }
 
 img{
-    height: 50%;
+    height: auto;
     width: 75%;
+
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+
     display: flex;
+    position: relative;
 }
 
+.container {
+    position: relative;
+  }
 
-#itext h2 {/* style for the title on the main image(mimage)*/
-    font-family: 'Josefin Slab', serif;
+#itext {/* style for the title on the main image(mimage)*/
     font-size: 150%;
-    color: #fff5dd;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 
-    height: 50px;
-    width: 200px;
+    height: auto;
+    width: 25%;
     text-align: center;
-    position: absolute;
 
-    padding: 20px 20px 40px 20px;
+    padding: 20px 20px 20px 20px;
 
     background-color: #b95c0093;
     
-    bottom: 550px;
-    right: 950px;
+    top: 10%;
+    left: 15%;
+
+    position: absolute;
+    display: flex;
 }
 
-#mintro h2 {/* style for the text on the main image(mimage)*/
-    font-family: 'Josefin Slab', serif;
+#mintro {/* style for the text on the main image(mimage)*/
     font-size: 150%;
-    color: #fff5dd;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 
-    height: 30px;
-    width: 350px;
+    height: auto;
+    width: 30%;
     text-align: center;
-    position: absolute;
+    
 
-    padding: 20px 30px 30px 30px;
+    padding: 20px 20px 20px 20px;
 
     background-color: #b95c0093;
 
-    bottom: 120px;
-    right: 550px;
+    top: 75%;
+    left: 35%;
+
+    position: absolute;
+    display: flex;
 }
 
 .link{
@@ -118,4 +126,11 @@ img{
         font-size: 80%;
     }
     
+    #itext {
+        font-size: 80%;
+    }
+
+    #mintro{
+        font-size: 80%;
+        }
 }
