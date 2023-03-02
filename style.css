@@ -128,48 +128,26 @@ h1,h2{/* style for "what defines an insect"*/
 .bugblock{ /* style for the entire block*/
     text-align: center;
     font-size: 150%;
-    padding: 20px 0 20px 0;
     margin: 10px auto auto auto;
     display: flex;
 }
 
-.insectimage1{
+.insectimage1, .insectimage2, .insectimage3, .insectimage4{
     height: auto;
-    width: 25%;
+    width: 20%;
     position: relative;
+    margin: 20px;
 }
 
-.insectimage2{
-    height: auto;
-    width: 25%;
-    position: relative;
-
-}
-
-.insectimage3{
-    height: auto;
-    width: 25%;
-    position: relative;
-
-}
-
-.insectimage4{
-    height: auto;
-    width: 25%;
-    position: relative;
-
-}
-
-#ants{
+#ants, #bee, #beetle, #mantis{
     font-size: 150%;
     width: 25%;
-    text-align: center;
+    margin-top: 20px;
     
     padding: 1%;
     background-color: #b95c0093;
-    
-    top: 35%;
-    left: 15%;
+    position: absolute;
+    display: inline-block;
 }
 
 .link{
@@ -181,8 +159,15 @@ h1,h2{/* style for "what defines an insect"*/
     border-bottom: 3px solid #5db86b;
 }
 
+.empty{
+    width: 100%;
+    display: block;
+    padding-bottom: 5%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 @media only screen and (max-width:700px){
-    header, #text1, #text2, .block, #buginfo, #ants{
+    header, h1, h2, #text1, #text2, .block, #buginfo, .bugblock, .block, #ants, #bee, #beetle, #mantis{
         font-size: 80%;
     }
 }
