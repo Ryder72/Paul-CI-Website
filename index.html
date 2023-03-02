@@ -12,7 +12,7 @@
         <nav>
             <ul id="menu"> <!-- Text for the header -->
                 <li><a href="index.html" id="logotxt"><p>Bug Catchers</p></a></li>
-                <li><a href="#" class="menui"><p>Contact us!</p></a></li>
+                <li><a href="#form" class="menui"><p>Contact us!</p></a></li>
                 <li><a href="#types" class="menui"><p>Types</p></a></li>
                 <li><a href="#buginfo" class="menui"><p>Definition</p></a></li>
                 <li><a href="#top" class="menui"><p>Top</p></a></li>
@@ -57,11 +57,11 @@
 
     <div class="empty" id="types"></div>
 
-    <section >
+    <!--<section >
         <div>
             <h1 >Here are a couple of different types insects below!</h1>
 
-            <br><br><br><br>
+            <div class="empty"></div>
 
             <div>
                 <img src="images/ant.jpg" alt="black ant on a stem" class="insectimage1">
@@ -101,10 +101,39 @@
                 </p>
             </div>
         </div>
-    </section>
+    </section>-->
 
-    <form>
+    <div class="empty"></div>
+
+
+    <form id="form">
+        <label for="fname" class="fname">First name</label><br>
+        <input type="text" class="fname" name="fname"><br>
+
+        <label for="lname" class="lname">Last name</label><br>
+        <input type="text" class="lname" name="lname">
+
+        <p id="ftext1">Choose your favorite insect!</p>
+
+        <input type="radio" class="fant" name="favourite_insect">
+        <label for="fant" class="fant">Ant</label><br>
+
+        <input type="radio" class="fbee" name="favourite_insect">
+        <label for="fbee" class="fbee">Bee</label><br>
+
+        <input type="radio" class="fbeetle" name="favourite_insect">
+        <label for="fbeetle" class="fbeetle">Beetle</label><br>
+
+        <input type="radio" class="fmantis" name="favourite_insect">
+        <label for="fmantis" class="fant">Mantis</label><br>
         
+        <br><br><br>
+
+        <p>Tell us why this is your favourite!</p><br>
+
+        <textarea name="message" id="message" rows="10" cols="40"></textarea><br>
+
+        <input type="submit" value="Submit">
     </form>
 
         <footer>

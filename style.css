@@ -123,6 +123,8 @@ h1,h2{/* style for "what defines an insect"*/
     background-color: #7e3f00;
     width: 25%;
     height: auto;
+    border-radius: 30px;
+    padding: 1%;
 }
 
 .bugblock{ /* style for the entire block*/
@@ -166,8 +168,46 @@ h1,h2{/* style for "what defines an insect"*/
     background-color: rgba(0, 0, 0, 0);
 }
 
+form{
+    color: black;
+    font-size: 150%;
+    height: auto;
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 20px;
+    
+    background-color: #b95c0093;
+}
+
+.fname, .lname{
+    width: 35%;
+    height: 20%;
+    margin-left: 20px;
+    float: left;
+}
+
+
+#ftext1{
+    height: auto;
+    width: 20%;
+    margin-right: 20px;
+    float: right;
+}
+
+.fant, .fbee, .fbeetle, .fmantis{
+    margin-right: 20px;
+    float: right;
+}
+
+#message{
+    width: 70%;
+    height: 20%;
+}
+
 @media only screen and (max-width:700px){
-    header, h1, h2, #text1, #text2, .block, #buginfo, .bugblock, .block, #ants, #bee, #beetle, #mantis{
+    header, h1, h2, #text1, #text2, .block, #buginfo, .bugblock, .block, #ants, #bee, #beetle, #mantis, .fname, .lname{
         font-size: 80%;
     }
 }
