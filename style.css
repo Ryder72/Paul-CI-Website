@@ -10,9 +10,15 @@
     line-height: 75px;
 }
 
-#logo{ /* logo styles */
-    padding-top: 15px;
+#logotxt{ /* logo styles */
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff5dd;
+
+    float: left;
     text-align: center;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    margin-left: 10px;
 }
 
 #menu { /* style for the header tabs in the header */
@@ -31,17 +37,8 @@
     border-bottom: 3px solid #5db86b;
 }
 
-
-#logo { /* style for the logo text in the header */
-    font-family: 'Josefin Sans', sans-serif;
-    color: #fff5dd;
-    float: left;
-    letter-spacing: 2px;
-    margin-left: 10px;
-}
-
 nav { /* style for the nav bar */
-    background-color: #7e3f00;
+    background-color: #7e3f00ea;
     height: 75px;
     width: 100%;
     position: fixed;
@@ -59,7 +56,7 @@ body { /* style for the body */
 
 }
 
-img{ /* style for the image */
+#topimage{ /* style for the image */
     height: auto;
     width: 75%;
 
@@ -115,7 +112,11 @@ img{ /* style for the image */
     font-size: 150%;
 }
 
-.block{
+h1,h2{/* style for "what defines an insect"*/
+    text-align: center;
+}
+
+.block{ /* style for each block*/
     display: inline-block;
     box-sizing: border-box;
     margin: 20px 5px 20px 5px;
@@ -124,11 +125,7 @@ img{ /* style for the image */
     height: auto;
 }
 
-.bugblock p{
-    text-align: center;
-}
-
-.bugblock{
+.bugblock{ /* style for the entire block*/
     text-align: center;
     font-size: 150%;
     padding: 20px 0 20px 0;
@@ -136,9 +133,14 @@ img{ /* style for the image */
     display: flex;
 }
 
-#test{
-    text-align: center;
-    font-size: 150%;
+
+.insectimage1{
+    width: 25%;
+}
+
+.insectimage2{
+    width: 25%;
+    float: right;   
 }
 
 @media only screen and (max-width:700px){
