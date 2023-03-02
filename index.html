@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><!-- defining the stylesheet, character set and viewport -->
     <link href="style.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
             <ul id="menu"> <!-- Text for the header -->
                 <li><a href="index.html" id="logotxt"><p>Bug Catchers</p></a></li>
                 <li><a href="#" class="menui"><p>Contact us!</p></a></li>
-                <li><a href="#" class="menui"><p>Different types</p></a></li>
+                <li><a href="#types" class="menui"><p>Different types</p></a></li>
                 <li><a href="#buginfo" class="menui"><p>What are they?</p></a></li>
                 <li><a href="#top" class="menui"><p>Top</p></a></li>
             </ul>
@@ -30,9 +30,9 @@
 
     </section>
 
-    <section id="buginfo"> <!-- Text for the info -->
+    <section> <!-- Text for the info -->
 
-        <br><br><br><br> <!-- Empty space between image above and text -->
+        <br id="buginfo"><br><br><br><br> <!-- Empty space between image above and text -->
 
         <!-- Text below the image -->
         <h2>What defines an insect?</h2> <br><br><br> <!-- Empty space -->
@@ -56,23 +56,45 @@
         </div>
     </section>
 
-    <br><br><br><br><br><br>
+    <br><br><br><br id="types"><br><br><br><br><br><br>
 
-    <section>
+    <section >
         <div>
-            <h1>Here are a couple of different types insects below!</h1>
+            <h1 >Here are a couple of different types insects below!</h1>
 
             <br><br><br><br>
 
-            <div>
+            <div id="space">
                 <img src="images/ant.jpg" alt="black ant on a stem" class="insectimage1">
-                <p>some text about ants</p>
+                <p id="ants">Ants form colonies that range in size from a few dozen to millions of ants. The colonies 
+                    are described as superorganisms because the ants appear to operate as a unified entity, collectively
+                    working together to support the colony. Find out more 
+                    <a href="https://en.wikipedia.org/wiki/Ant" target="_blank" class="link">here.</a>
+                </p>
 
                 <img src="images/bee.jpg" alt="bee on a flower" class="insectimage2">
-                
-                <img src="images/beetle.jpg" alt="beetles fighting" class="insectimage1">
+                <p id="ants">Bees are winged insects closely related to wasps and ants, known for their roles in pollination 
+                    and, in the case of the best-known bee species, the western honey bee, for producing honey. Some species 
+                    including honey bees, bumblebees, and stingless bees live socially in colonies while most other species 
+                    are solitary. Find out more 
+                    <a href="https://en.wikipedia.org/wiki/Bee" target="_blank" class="link">here.</a>
+                </p>
 
-                <img src="images/mantis.jpg" alt="mantis trying to scare off the camera" class="insectimage2">
+                <img src="images/beetle.jpg" alt="beetles fighting" class="insectimage3">
+                <p id="ants">Beetles have their front pair of wings hardened into wing-cases, distinguishing them from most other
+                    insects. They are found in almost every habitat except the sea and the polar regions.They often feed on plants
+                    and fungi, break down animal and plant debris, and eat other invertebrates. Some species are serious 
+                    pests while others are helpful by eating aphids and other plant-eating insects. Find out more 
+                    <a href="https://en.wikipedia.org/wiki/Beetle" target="_blank" class="link">here.</a>
+                </p>
+                <img src="images/mantis.jpg" alt="mantis scaring off the camera" class="insectimage4">
+                <p id="ants">Mantises are found worldwide in temperate and tropical habitats. They have triangular heads
+                    with bulging eyes supported on flexible necks. Their elongated bodies may or may not have wings, but all 
+                    mantises have forelegs that are enlarged and adapted for catching and gripping prey. Their upright
+                    posture, while remaining stationary has led to the common name praying mantis. Find out more 
+                    <a href="https://en.wikipedia.org/wiki/Mantis" target="_blank" class="link">here.</a>
+                </p>
+
 
             </div>
         </div>
@@ -82,7 +104,7 @@
 
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <!-- Temporary empty space so i can scroll down -->
         <footer>
-
+            
         </footer>
 </body>
 </html>

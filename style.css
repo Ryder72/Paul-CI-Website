@@ -133,34 +133,56 @@ h1,h2{/* style for "what defines an insect"*/
     display: flex;
 }
 
-
 .insectimage1{
+    height: auto;
     width: 25%;
+    position: relative;
 }
 
 .insectimage2{
+    height: auto;
     width: 25%;
-    float: right;   
+    position: relative;
+
+}
+
+.insectimage3{
+    height: auto;
+    width: 25%;
+    position: relative;
+
+}
+
+.insectimage4{
+    height: auto;
+    width: 25%;
+    position: relative;
+
+}
+
+#ants{
+    font-size: 150%;
+    width: 25%;
+    text-align: center;
+    
+    padding: 1%;
+    background-color: #b95c0093;
+    
+    top: 35%;
+    left: 15%;
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.link:hover { /* animation for the text in the header */
+    border-bottom: 3px solid #5db86b;
 }
 
 @media only screen and (max-width:700px){
-    header{
-        font-size: 80%;
-    }
-    
-    #text1 {
-        font-size: 80%;
-    }
-
-    #text2{
-        font-size: 80%;
-    }
-
-    .block{
-        font-size: 80%;
-    }
-
-    #buginfo{
+    header, #text1, #text2, .block, #buginfo, #ants{
         font-size: 80%;
     }
 }
