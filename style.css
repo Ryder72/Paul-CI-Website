@@ -53,7 +53,6 @@ body { /* style for the body */
     color: #fff5dd;
     background-color: #373e02;
     font-family: 'Josefin Slab', serif;
-
 }
 
 #topimage{ /* style for the image */
@@ -134,26 +133,51 @@ h1,h2{/* style for "what defines an insect"*/
     display: flex;
 }
 
-.article1 .first, .second {
-    width: 50%;
+.sectioncenter{
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.insectimage1, .insectimage2, .insectimage3, .insectimage4{
-    height: auto;
-    width: 25%;
-    position: relative;
-    margin: 20px;
-}
-
-#ants, #bee, #beetle, #mantis{
-    font-size: 150%;
-    width: 25%;
-    margin-top: 20px;
-    
-    padding: 1%;
-    background-color: #b95c0093;
-    position: absolute;
+.item{
     display: inline-block;
+    box-sizing: border-box;
+    padding: 24px 11px 24px 11px;
+    margin: 20px 5px 20px 5px;
+    text-align: center;
+    background-color: #7e3f00;
+    width: 47%;
+}
+
+.textdecor{
+    font-size: 150%;
+}
+
+.photo{
+    height: 60%;
+    width: 60%;
+}
+
+.article1{
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.article1 .first {
+    width: 50%;
+    text-align: center;
+    border: white 3px solid;
+}
+
+.article1 .first p{
+    background-color: #b95c0093;
+    width: 60%;
+}
+
+.article1 .first img{
+    height: 60%;
+    width: 40%;
 }
 
 .link{
@@ -181,7 +205,7 @@ form{
     color: black;
     font-size: 150%;
     height: auto;
-    width: 45%;
+    width: 80%;
     text-align: center;
     margin: auto;
     border-radius: 20px;
@@ -190,27 +214,18 @@ form{
     background-color: #b95c0093;
 }
 
+#ftext1{
+    margin-top: 20px;
+}
+
 #thoughts{
     margin-bottom: 20px;
 }
 
-.fname, .lname, #fname, #lname{
-    width: 35%;
-    height: 20%;
-    margin-left: 20px;
-    float: left;
-}
-
-
-#ftext1{
-    width: 30%;
-    margin-right: 20px;
-    float: right;
-}
-
-.fant, .fbee, .fbeetle, .fmantis{
-    margin-right: 20px;
-    float: right;
+.favinsect{
+    text-align: left;
+    position: relative;
+    left: 45%;
 }
 
 #message{
@@ -221,9 +236,9 @@ form{
 
 footer{
     background-color: #7e3f00ea;
-    height: 10%;
+    height: 75px;
+    width: 100%;
     font-size: 120%;
-    padding: 20px;
 }
 
 footer p{
@@ -244,21 +259,16 @@ footer p{
 }
 
 @media only screen and (max-width:700px){
-    header, h1, h2, #text1, #text2, .block, #buginfo, .bugblock, .block, #ants, #bee, #beetle, #mantis, .fname, .lname, #p1, #p2, #ftop, #thoughts{
+    header, h1, h2, #text1, #text2, .block, #buginfo, .bugblock, .first, .block, #ants, #bee, #beetle, #mantis, .fname, .lname, #p1, #p2, #ftop, #thoughts, .item, #form{
         font-size: 80%;
     }
 
-    #form{
-        height: auto;
-        width: 300px;
-    }
-
     #submit{
-        font-size: 12px;
+        font-size: 10px;
         padding: 10px 18px;
     }
 
-    .fant, .fbee, .fbeetle, .fmantis, #favourite, #thoughts{
+     #favourite, #thoughts, .textdecor{
         font-size: 85%;
     }
 
