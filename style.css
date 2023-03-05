@@ -133,14 +133,14 @@ h1,h2{/* style for "what defines an insect"*/
     display: flex;
 }
 
-.sectioncenter{
+.sectioncenter{  /* 2x2 image grid */
     padding: 20px 0 20px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.item{
+.item{ /* every item in the 2x2 grid */
     display: inline-block;
     box-sizing: border-box;
     padding: 24px 11px 24px 11px;
@@ -150,37 +150,16 @@ h1,h2{/* style for "what defines an insect"*/
     width: 47%;
 }
 
-.textdecor{
+.textdecor{ /* font size for the text in the 2x2 grid */
     font-size: 150%;
 }
 
-.photo{
+.photo{ /* size for the images in the 2x2 image grid */
     height: 60%;
     width: 60%;
 }
 
-.article1{
-    display: flex;
-    padding-bottom: 10%;
-}
-
-.article1 .first {
-    width: 50%;
-    text-align: center;
-    border: white 3px solid;
-}
-
-.article1 .first p{
-    background-color: #b95c0093;
-    width: 60%;
-}
-
-.article1 .first img{
-    height: 60%;
-    width: 40%;
-}
-
-.link{
+.link{ /* removing decoration from links */
     color: inherit;
     text-decoration: none;
 }
@@ -189,19 +168,20 @@ h1,h2{/* style for "what defines an insect"*/
     border-bottom: 3px solid #5db86b;
 }
 
-.empty{
+.empty{ /* empty box placed throughout the code */
     width: 100%;
     display: block;
     padding-bottom: 5%;
     background-color: rgba(0, 0, 0, 0);
 }
 
-#thoughts{
+#thoughts{ /* thoughts text style */
     text-align: center;
     font-size: 150%;
+    margin-bottom: 20px;
 }
 
-form{
+form{ /* form styles */
     color: black;
     font-size: 150%;
     height: auto;
@@ -214,39 +194,35 @@ form{
     background-color: #b95c0093;
 }
 
-#ftext1{
+#ftext1{ /* choose your favourite insect style */
     margin-top: 20px;
 }
 
-#thoughts{
-    margin-bottom: 20px;
-}
-
-.favinsect{
+.favinsect{ /* favourite insect text style */
     text-align: left;
     position: relative;
     left: 45%;
 }
 
-#message{
+#message{ /* text box style */
     width: 70%;
     height: 10%;
     margin-bottom: 10px;
 }
 
-footer{
+footer{/* footer style */
     background-color: #7e3f00ea;
     height: 75px;
     width: 100%;
     font-size: 120%;
 }
 
-footer p{
+footer p{ /* footer text style */
     padding-top: 20px;
     width: auto;
 }
 
-#submit{
+#submit{ /* submit button style */
     color: black;
     font-size: 16px;
     background-color: #48cc20;
@@ -258,7 +234,7 @@ footer p{
     margin-bottom: 15px;
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:700px){ /* media queary for everything to scale down over 700px */
     header, h1, h2, #text1, #text2, .block, #buginfo, .bugblock, .first, .block, #ants, #bee, #beetle, #mantis, .fname, .lname, #p1, #p2, #ftop, #thoughts, .item, #form{
         font-size: 80%;
     }
