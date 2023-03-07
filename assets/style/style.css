@@ -116,8 +116,6 @@ h1,h2{/* style for "what defines an insect"*/
 }
 
 .block{ /* style for each block*/
-    display: inline-block;
-    box-sizing: border-box;
     margin: 20px 5px 20px 5px;
     background-color: #7e3f00;
     width: 25%;
@@ -128,8 +126,6 @@ h1,h2{/* style for "what defines an insect"*/
 
 .bugblock{ /* style for the entire block*/
     text-align: center;
-    font-size: 150%;
-    margin: 10px auto auto auto;
     display: flex;
 }
 
@@ -182,11 +178,16 @@ h1,h2{/* style for "what defines an insect"*/
     margin-bottom: 20px;
 }
 
+#fname, #lname{
+    width: 60%;
+    height: auto;
+}
+
 form{ /* form styles */
     color: rgb(209, 206, 0);
     font-size: 150%;
     height: auto;
-    width: 80%;
+    width: 40%;
     text-align: center;
     margin-top: 20px;
     margin: auto;
@@ -237,8 +238,11 @@ footer p{ /* footer text style */
 }
 
 @media only screen and (max-width:700px){ /* media queary for everything to scale down over 700px */
-    header, h1, h2, #text1, #text2, .block, #buginfo, .bugblock, .first, .block, #ants, #bee, #beetle, #mantis, .fname, .lname, #p1, #p2, #ftop, #thoughts, .item, #form{
+    h1, h2, #text1, #text2, .block, #buginfo, .bugblock, .first, .block, #ants, #bee, #beetle, #mantis, .fname, .lname, #p1, #p2, #ftop, #thoughts, .item, #form{
         font-size: medium;
+    }
+    header{
+        font-size: 80%
     }
 
     .photo{
