@@ -127,6 +127,7 @@ h1,h2{/* style for "what defines an insect"*/
 .bugblock{ /* style for the entire block*/
     text-align: center;
     display: flex;
+    font-size: 150%;
 }
 
 .sectioncenter{  /* 2x2 image grid */
@@ -242,7 +243,7 @@ footer p{ /* footer text style */
         font-size: medium;
     }
     header{
-        font-size: 80%
+        font-size: 80%;
     }
 
     .photo{
