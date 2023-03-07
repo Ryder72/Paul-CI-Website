@@ -213,7 +213,6 @@ h2 {
 form {
     /* form styles */
     color: rgb(72, 192, 17);
-    font-size: 150%;
     height: auto;
     width: 40%;
     text-align: center;
@@ -255,6 +254,7 @@ footer {
 footer p {
     /* footer text style */
     padding-top: 20px;
+    margin-left: 20px;
     width: auto;
 }
 

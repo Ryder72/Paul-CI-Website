@@ -1,108 +1,80 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Welcome!
 
-Welcome Ryder72,
+### This is the website I made on gitpod for the introduction to HTML and CSS course. It is designed to be responsive and readable on a range of devices. Best viewed on desktop. The last update to this website was: **07/03/2023**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<br>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- # Design
 
-## Gitpod Reminders
+    - ### Colour Scheme
+            The colours i have used are:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+                - #fff5dd             (white for text)
+                - #7e3f00ea;          (brown for text background)
+                - #373e02             (green for entire website background)
+                - black               (for text)
+                - #5db86b             (light green for the underline when hovering over an element)
+                - rgba(0, 0, 0, 0)    (nothing for the empty spaces)
+                - rgb(72, 192, 17)    (bright green for the form text)
+                - #48cc20             (bright green for the submit button)
 
-`python3 -m http.server`
+    - ### Font
+        - The fonts I have used are Josefin Sans (Font for logo) and Josefin Slab (Main font). I have used these fonts because they are available via an open source license and you're free to use them.
 
-A blue button should appear to click: _Make Public_,
+    - ### Images
+        - The images are very important as they are the first thing to capture the users attention. The large first image captures the users attention with its striking detail. While the other smaller images show the insects in even greater detail.
 
-Another blue button should appear to click: _Open Browser_.
+    - ### Wireframe
+        - The wireframe I have used can me found here ==> https://miro.com/app/board/uXjVPudNOPw=/?share_link_id=2977017497
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+- # Features
+    - Responsive on all device sizes.
+    - Internal and external links.
+    - Contains some useful info about insects
 
-Another blue button should appear to click: _Open Browser_.
+- # Technologies used
+    ### Languages:
+    - HTML5
+    - CSS3
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    I have also used
 
-To log into the Heroku toolbelt CLI:
+    ```
+    python3 -m http.server 8000
+    ```
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    To run a temporary webpage where I could see the website in real time 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    ### Libraries & Websites used:
+    1. Google Fonts
+        - Google fonts was used to import the Josefin Sans and Slab fonts.
+    2. Github
+        - GitHub was used to store the project code and images after being written and tested in Gitpod.
+    3. Git
+        - Git was used for creating versions of my code by using commits that save the current state of the code and files on Github.
+    4. Miro
+        - Miro was used to create the wireframe for the website
+
+- # Testing
+    - The W3C HTML and CSS Validator were used to check and validate my code to make sure there were no syntax errors.
+    The HTML validator can be found [here](https://validator.w3.org/#validate_by_input) and the CSS [here](https://jigsaw.w3.org/css-validator/#validate_by_input).
+
+    - I have tested every internal and external link myself.
+
+    - I have also tested the website using the inspect tool provided by google to make sure the website is responsive and nicely styled
+
+
+- # Known Issues
+
+
+- # Depolyment
+
+
+- # Credits
+
+
 
 ------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
 ------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+------
