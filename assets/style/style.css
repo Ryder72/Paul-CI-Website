@@ -155,8 +155,9 @@ h1,h2{/* style for "what defines an insect"*/
 }
 
 .photo{ /* size for the images in the 2x2 image grid */
-    height: 60%;
-    width: 60%;
+    height: 300px;
+    width: auto;
+    padding-bottom: 20px;
 }
 
 .link{ /* removing decoration from links */
@@ -236,7 +237,12 @@ footer p{ /* footer text style */
 
 @media only screen and (max-width:700px){ /* media queary for everything to scale down over 700px */
     header, h1, h2, #text1, #text2, .block, #buginfo, .bugblock, .first, .block, #ants, #bee, #beetle, #mantis, .fname, .lname, #p1, #p2, #ftop, #thoughts, .item, #form{
-        font-size: 80%;
+        font-size: medium;
+    }
+
+    .photo{
+        height: 80px;
+        width: auto;
     }
 
     #submit{
@@ -245,7 +251,7 @@ footer p{ /* footer text style */
     }
 
      #favourite, #thoughts, .textdecor{
-        font-size: 85%;
+        font-size: medium;
     }
 
 }
