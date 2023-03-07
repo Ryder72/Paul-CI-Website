@@ -62,7 +62,7 @@
 
     - I have tested every internal and external link myself.
 
-    - I have also tested the website using the inspect tool provided by google to make sure the website is responsive and nicely styled
+    - I have also tested the website using the dev tool provided by google to make sure the website is responsive and nicely styled
 
 
 - # Known Issues
