@@ -183,16 +183,17 @@ h1,h2{/* style for "what defines an insect"*/
 }
 
 form{ /* form styles */
-    color: black;
+    color: rgb(209, 206, 0);
     font-size: 150%;
     height: auto;
     width: 80%;
     text-align: center;
+    margin-top: 20px;
     margin: auto;
     border-radius: 20px;
     padding-top: 20px;
     
-    background-color: #b95c0093;
+    background-color: #633100;
 }
 
 #ftext1{ /* choose your favourite insect style */
