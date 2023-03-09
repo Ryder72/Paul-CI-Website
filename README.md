@@ -90,7 +90,7 @@
 
 - # Known Issues
     - On some small width phone devices the navigation text get pushed below the bar.
-    - On some mobile devices except desktop you can scroll to the right.
+    - On some mobile devices you can scroll to the right.
 
     <br>
 
