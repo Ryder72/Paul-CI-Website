@@ -31,7 +31,7 @@
         <br>
 
     - ### Wireframe
-        - The wireframe I have used can me found here ==> https://miro.com/app/board/uXjVPudNOPw=/?share_link_id=2977017497
+        - The wireframe I have used can be found here ==> https://miro.com/app/board/uXjVPudNOPw=/?share_link_id=2977017497
 
     <br>
 
@@ -82,27 +82,27 @@
 
     - I have tested every internal and external link.
 
-    - I have also tested the website using the dev tool provided by google to make sure the website is responsive on all device. I have used the Iphone 12 Pro and the Samsung Galaxy S20 Ultra to see how it can be seen on phones.
+    - I have also tested the website using the dev tool provided by google to make sure the website is responsive on all devices. I have used the Iphone 12 Pro and the Samsung Galaxy S20 Ultra to see how it can be seen on phones.
 
     - The website was tested using Google Chrome and Microsoft Edge
 
     <br>
 
 - # Known Issues
-    - On some small width phone devices the navigation text get pushed below the bar.
+    - On some smaller screen phones the navigation text gets pushed below the bar.
     - On some mobile devices you can scroll to the right.
 
     <br>
 
 - # Depolyment onto GitHub
-    There are the steps I took to deploy my project on GitHub are:
+    These are the steps I took to deploy my project on GitHub:
 
-    1. Go the Code Institute [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
+    1. Go to the Code Institute [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
     2. Press the "Copy this template button" and create a new repository and name it. [My repository for this project](https://github.com/Ryder72/Code-Institute-Website)
     3. Create an index.html and a style.css file
     4. Create an assets folder.
-    5. Code the website and commit changes often, and give them meaningful mesages as to show what changed throughout development.
-    6. Synchronise every commit with on GitPod to make sure everything is saved with GitHub.
+    5. Code the website and commit changes often, and give them meaningful messages as to show what changed throughout development.
+    6. Commit the project on GitPod and synchronise it to make sure it is saved on GitHub.
 
     <br>
 
