@@ -114,7 +114,7 @@
 
         All code was written by me.
 
-        Aloysius Fernandez helped debugging.
+        Aloysius Fernandez helped with debugging.
 
         My mentor and Code Institute tutor support provided me with helpful feedback for this project.
 
